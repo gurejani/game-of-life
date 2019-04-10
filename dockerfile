@@ -1,4 +1,4 @@
-FROM tomcat:7.0
+FROM tomcat
 MAINTAINER Deepak
 COPY gameoflife-web/target/gameoflife.war /usr/local/tomcat/webapps/gameoflife.war
 EXPOSE 8080
